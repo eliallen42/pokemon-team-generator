@@ -1,0 +1,93 @@
+/* Header Scope */
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  padding-block: 1rem;
+}
+
+/* Pokeball Image */
+.header-pokeball {
+  width: clamp(64px, 10vw, 120px);
+  height: auto;
+  display: block;
+}
+
+/* Title */
+.header-title {
+  text-align: center;
+  font-size: clamp(1.75rem, 2.2vw + 1rem, 3rem);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Verdana",
+    sans-serif;
+  margin: 0;
+}
+
+/* Random Button */
+.random-button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Pokemon Layout */
+.pokemon-grid {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+
+.pokemon-grid li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Pokemon Button */
+.pokemon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pokemon-button img {
+  display: block;
+}
+
+/* Completed Message */
+.message {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: "Arial", "Verdana", sans-serif;
+  margin-top: 50px;
+  color: red;
+}
+
+/* Selected Pokemon Display */
+.selected-pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.selected-pokemon-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Type Display */
+.type-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  margin-left: 4px;
+  border-radius: 4px;
+  background-color: #ddd;
+  font-size: 0.9rem;
+}
