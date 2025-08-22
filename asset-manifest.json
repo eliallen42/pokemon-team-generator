@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokemon-team-generator/static/css/main.5e2cd6a0.css",
+    "main.js": "/pokemon-team-generator/static/js/main.d5641e7b.js",
+    "index.html": "/pokemon-team-generator/index.html",
+    "main.5e2cd6a0.css.map": "/pokemon-team-generator/static/css/main.5e2cd6a0.css.map",
+    "main.d5641e7b.js.map": "/pokemon-team-generator/static/js/main.d5641e7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e2cd6a0.css",
+    "static/js/main.d5641e7b.js"
+  ]
+}
