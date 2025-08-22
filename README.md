@@ -9,6 +9,20 @@ A simple React app for building your own Pokémon team. Select up to 6 Pokémon 
 - View selected Pokémon with their stats and types
 - Clear your team and start over
 
+## Live Demo
+
+[View Demo](https://eliallen42.github.io/pokemon-team-generator/)
+
+## Purpose
+
+This project was created as part of my portfolio to demonstrate front-end development skills with React.  
+It highlights my ability to:
+
+- Work with dynamic data structures and arrays
+- Manage state and user interactions with React Hooks
+- Prevent duplicate selections and enforce team size limits
+- Build a clean, interactive UI using reusable components and CSS
+
 ## Getting Started
 
 1. **Install dependencies:**
